@@ -1,12 +1,42 @@
-# React + Vite
+OTP Login App 🔐
+This is a simple OTP-based authentication system built with React.js. Users can enter their phone number, receive a randomly generated OTP, and verify it to log in.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
+✅ Enter phone number to receive OTP
+✅ OTP generation and verification
+✅ Simple UI with step-based authentication
+✅ Built using React Hooks (useState)
 
-Currently, two official plugins are available:
+📦 Installation
+1️⃣ Clone the repository
+Copy code
+git clone https://github.com/hvchaturvedi/otp-login-app.git
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2️⃣ Navigate into the project directory
+Copy code
+cd otp-login-app
 
-## Expanding the ESLint configuration
+3️⃣ Install dependencies
+Copy code
+npm install
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+4️⃣ Start the development server
+sh
+Copy code
+npm run dev
+
+⚙️ How It Works
+Enter your phone number and click Send OTP.
+A random OTP is generated and displayed (simulating an OTP system).
+Enter the OTP and click Verify OTP.
+If correct, the user is successfully logged in.
+
+🛠 Tech Stack
+React.js (Functional Components & Hooks)
+JavaScript (ES6+)
+CSS for styling
+
+📌 Future Enhancements
+🔹 Integrate with Firebase for real OTP sending
+🔹 Add backend API for authentication
+🔹 Improve UI with animations
